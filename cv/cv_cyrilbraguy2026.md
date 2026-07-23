@@ -15,7 +15,7 @@ linkedin: "linkedin.com/in/cyril-braguy"
 - ☎ 06 72 07 58 74  
 - ✉ cyril.braguy@gmail.com  
 - 🔗 LinkedIn: Cyril Braguy
-
+- github: cyrilbraguy: https://github.com/cyrilbraguy
 ---
 
 # Profile

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+<meta charset="utf-8">
+<title>$title$</title>
+<link rel="stylesheet" href="resume.css">
+</head>
+<body>
+<header class="banner">
+  <div class="banner-left">
+    <h1>$title$</h1>
+    <p class="subtitle">$subtitle$</p>
+    <p class="tagline">$tagline$</p>
+  </div>
+  <div class="banner-right">
+    <div class="contact">$if(sidebar-contact)$$sidebar-contact$$endif$</div>
+    $if(photo)$<img class="photo" src="$photo$" alt="$title$">$endif$
+  </div>
+</header>
+<div class="cv">
+  <aside class="sidebar">
+    $if(sidebar-training)$<h2>Training</h2>$sidebar-training$$endif$
+    $if(sidebar-education)$<h2>Education</h2>$sidebar-education$$endif$
+    $if(sidebar-qualities)$<h2>Qualities</h2><div class="qualities">$sidebar-qualities$</div>$endif$
+    $if(sidebar-strongpoints)$<h2>Strong Points</h2>$sidebar-strongpoints$$endif$
+    $if(sidebar-hobbies)$<h2>Hobbies</h2>$sidebar-hobbies$$endif$
+  </aside>
+  <main class="content">
+    $body$
+  </main>
+</div>
+</body>
+</html>
