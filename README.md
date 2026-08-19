@@ -16,8 +16,8 @@ linkedin: "linkedin.com/in/cyril-braguy"
 - 📍 38500 Voiron, France  
 - ☎ 06 72 07 58 74  
 - ✉ cyril.braguy@gmail.com  
-- 🔗 LinkedIn: Cyril Braguy
-- github: cyrilbraguy
+-  · [LinkedIn: cyril-braguy](https://www.linkedin.com/in/cyril-braguy-a498201/)\
+-  · [GitHub: cyrilbraguy](http://github.com/cyrilbraguy)
 ---
 
 # Profile

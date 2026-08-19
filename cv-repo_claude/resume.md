@@ -9,7 +9,7 @@ lang: en
 
 **38500 Voiron, France** · 06 72 07 58 74\
 [Cyril.braguy@gmail.com](mailto:Cyril.braguy@gmail.com)\
-[LinkedIn](https://www.linkedin.com/in/cyril-braguy-a498201/)\
+ · [LinkedIn](https://www.linkedin.com/in/cyril-braguy-a498201/)\
  · [GitHub](http://github.com/cyrilbraguy)
 
 ## Profile
@@ -20,9 +20,10 @@ Engineer with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volv
 
 **Skills:** Python, pandas, NumPy, SQL, scikit-learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, librosa, MLOps, LangChain, Docker, Kubernetes, Git, QlikView, Power BI
 
-### Lead Data Scientist Bootcamp (600h) | Jedha — 2026
+### Lead Data Scientist AI Bootcamp (600h) | Jedha — 2026
 
-- Full-stack training: Python, EDA, ML, Deep Learning, MLOps, Docker, Kubernetes, model deployment
+- Full-stack : Python, EDA, ML, Deep Learning, MLOps, Docker, Kubernetes, model deployment
+- Lead : Data governance, 
 
 ### Project MusicAI — music genre classification | Personal capstone — 2026
 
