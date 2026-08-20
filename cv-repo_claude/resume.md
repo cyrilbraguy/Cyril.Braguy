@@ -14,7 +14,7 @@ lang: en
  · [LinkedIn](https://www.linkedin.com/in/cyril-braguy-a498201/)\
  · [GitHub](http://github.com/cyrilbraguy)
 
-## Profile |
+## Profile
 
 Engineer retrained as a **Lead Data Scientist** (Jedha Bootcamp, 600h, 2026)\
 with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volvo Group)\
@@ -29,18 +29,19 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 - **Full-stack**: Python, EDA, Machine and Deep Learning, MLOps, Docker, Kubernetes ; **Lead**:Data Governance, model and complete AI solution deployment 
 
 
-### Project MusicAI: music genre classification - Personal capstone — 2026
+### Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/): music genre classification - Personal capstone — 2026
 
 - Multimodal CNN (PyTorch): mel-spectrograms + 57 audio features (librosa) on GTZAN
 - MLflow tracking/registry pipeline; Streamlit app for live inference, PCA & recommendations
+- MLOps : CI / CD, drift monitoring, orchestration w/ Airflow & github actions  
 
 ### PyWindNoise: wind-noise analysis tool - Renault Trucks, Volvo Group — 2025
 
-- Python/Tkinter app automating Simcenter Testlab via COM (win32com), packaged with PyInstaller
+- Python/Tkinter app automating Simcenter Testlab data processing via COM (win32com), packaged with PyInstaller; 6months, 30% reduction processing time
 
 ### LogDataValidator: vehicle log data validation | Renault Trucks, Volvo Group — 2022
 
-- Technical lead, automated validation tool (200 man-days, €100k budget)
+- Technical lead, automated validation tool (200 man-days, €100k budget, errors identified on 30% of data)
 
 ### Customer usage & warranty data analytics | Renault Trucks, Volvo Group — 2015
 
@@ -63,11 +64,11 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 ### Vibration & Acoustic Diagnostics Engineer | Vibratec — 2007
 
-- Diagnostics for automotive, rail & energy sectors; Inverse Force methods research (Matlab), 2 publications
+- Diagnostics for automotive, rail & energy sectors; Inverse Force methods research (Matlab), [2 publications](https://www.researchgate.net/publication/339229645_Measurement_of_dynamic_loads_at_wheel_center_for_road_excitations_NVH_application_ISMA_Conf_Leuven_2006)
 
 ### Test Engineer, Noise & Vibrations on Suspensions | PSA Peugeot Citroën (now Stellantis) — 2001
 
-- Dynamic comfort vibration testing; new test bench development (€200k budget)
+- Dynamic comfort vibration testing; new [test bench](https://www.researchgate.net/publication/273904439_Recent_Improvements_in_Road_Noise_Control) development to measure vehicle suspension blocking forces (€200k budget)
 
 ### Structural Dynamics Engineer (Military Service) | Aerospatiale (now Airbus Astrium) — 1996
 
@@ -83,14 +84,12 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 - Customer usage clustering & QlikView dashboards; new aerodynamic CO2-certification test methods (Matlab)
 
-
-
 ## Training
 
 *2018 – 2026*
 
 - **2026: Jedha Bootcamp** – Lead Data Scientist, 600h
-- **Project MusicAI**: music genre classification, ML & Deep Learning CNN (PyTorch, scikit-learn, MLflow)
+- **Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/)**: music genre classification
 
 ## Education
 

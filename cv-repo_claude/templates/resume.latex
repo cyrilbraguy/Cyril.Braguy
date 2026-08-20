@@ -67,8 +67,8 @@
 % ---------- experience entry: narrow date column + content column ----------
 \newenvironment{cventry}[1]{%
   \par\noindent
-  \begin{minipage}[t]{0.08\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\end{minipage}%
-  \hfill\begin{minipage}[t]{0.9\linewidth}\small
+  \begin{minipage}[t]{0.06\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\hspace{0.5cm}\end{minipage}%
+  \begin{minipage}[t]{0.93\linewidth}\small
 }{%
   \end{minipage}\par\vspace{\cvEntrySpace}%
 }
@@ -100,7 +100,7 @@ $endif$
   \end{minipage}\hfill
   \begin{minipage}{0.3\linewidth}
   \centering
-  $if(photo)$\includegraphics[width=2.1cm]{$photo$}$endif$
+  $if(photo)$\includegraphics[width=2.4cm]{$photo$}$endif$
   \end{minipage}\hspace{0.4cm}
 \end{minipage}%
 }
