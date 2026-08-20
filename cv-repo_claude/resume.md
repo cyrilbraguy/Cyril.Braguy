@@ -24,37 +24,37 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 **Skills:** Python, pandas, NumPy, SQL, PySpark, scikit-learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, librosa, MLOps, LangChain, Docker, Kubernetes, Git, Github actions, Airflow, EvidentlyAI, Terraform, QlikView, Power BI
 
-### Lead Data Scientist AI Bootcamp (600h) - Jedha — 2026
+### Lead Data Scientist AI Bootcamp (600h) | Jedha — 2026
 
 - **Full-stack**: Python, EDA, Machine and Deep Learning, MLOps, Docker, Kubernetes ; **Lead**:Data Governance, model and complete AI solution deployment 
 
 
-### Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/): music genre classification - Personal capstone — 2026
+### Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/): music genre classification | Personal capstone — 2026
 
 - Multimodal CNN (PyTorch): mel-spectrograms + 57 audio features (librosa) on GTZAN
 - MLflow tracking/registry pipeline; Streamlit app for live inference, PCA & recommendations
 - MLOps : CI / CD, drift monitoring, orchestration w/ Airflow & github actions  
 
-### PyWindNoise: wind-noise analysis tool - Renault Trucks, Volvo Group — 2025
+### PyWindNoise: wind-noise analysis tool | Renault Trucks (Volvo AB) — 2025
 
 - Python/Tkinter app automating Simcenter Testlab data processing via COM (win32com), packaged with PyInstaller; 6months, 30% reduction processing time
 
-### LogDataValidator: vehicle log data validation | Renault Trucks, Volvo Group — 2022
+### LogDataValidator: vehicle log data validation | Renault Trucks (Volvo AB) — 2022
 
 - Technical lead, automated validation tool (200 man-days, €100k budget, errors identified on 30% of data)
 
-### Customer usage & warranty data analytics | Renault Trucks, Volvo Group — 2015
+### Customer usage & warranty data analytics | Renault Trucks (Volvo AB) — 2015
 
 - Clustering, QlikView/Power BI dashboards on driving & warranty data; Weibull reliability models
 
 
 ## NVH : Noise Vibration Harshness 
 
-### NVH & Aero-acoustics Analyst | Renault Trucks, Volvo Group — Now
+### NVH & Aero-acoustics Analyst | Renault Trucks (Volvo AB) — Now
 
 - Aerodynamic noise test method & analysis workflow (Simcenter Testlab); rear axle noise measuring system in production
 
-### Team Leader Cabin Interior Noise & feature leader | Renault Trucks, Volvo Group, Lyon — 2014
+### Team Leader Cabin Interior Noise & feature leader | Renault Trucks (Volvo AB) — 2014 -2008
 
 - Team leadership, acoustic development of T C K truck range (Euro VI), validation plans & project reviews
 
@@ -62,21 +62,21 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 - Thermomechanical calculations & DOE-based design optimization on compressors and steam turbines
 
-### Vibration & Acoustic Diagnostics Engineer | Vibratec — 2007
+### Vibration & Acoustic Diagnostics Engineer | Vibratec — 2006 -2002
 
 - Diagnostics for automotive, rail & energy sectors; Inverse Force methods research (Matlab), [2 publications](https://www.researchgate.net/publication/339229645_Measurement_of_dynamic_loads_at_wheel_center_for_road_excitations_NVH_application_ISMA_Conf_Leuven_2006)
 
-### Test Engineer, Noise & Vibrations on Suspensions | PSA Peugeot Citroën (now Stellantis) — 2001
+### Test Engineer, Noise & Vibrations on Suspensions | PSA Peugeot Citroën (now Stellantis) — 2001 -1998
 
 - Dynamic comfort vibration testing; new [test bench](https://www.researchgate.net/publication/273904439_Recent_Improvements_in_Road_Noise_Control) development to measure vehicle suspension blocking forces (€200k budget)
 
-### Structural Dynamics Engineer (Military Service) | Aerospatiale (now Airbus Astrium) — 1996
+### Structural Dynamics Engineer (Military Service) | Aerospatiale (now Airbus) — 1997
 
 - Structural vibration & shock response calculations, **FORTRAN programming**
 
 ## Other Engineering Background
 
-### Reliability Project Team Member | Renault Trucks, Volvo Group — 2024
+### Reliability Project Team Member | Renault Trucks (Volvo AB) — 2024 -2017
 
 - Warranty data analysis & Power BI reports; **LogDataValidator** tool
 
@@ -95,7 +95,7 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 *1993 – 1996*
 
-- **Ecole Centrale de Lyon** — Engineer in Structural Dynamics; MSc Acoustics
+- **Ecole Centrale de Lyon** - Engineer in Structural Dynamics; MSc Acoustics
 - Master's thesis: SEA method tool for plate structures, Dassault Aviation, Suresnes (1996)
 
 ## Qualities
@@ -119,4 +119,4 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 ## Hobbies
 
 - Road cycling & cyclosportive tours in the Alps
-- Mountaineering & ski mountaineering — volunteer instructor, French Alpine Club
+- Mountaineering & ski mountaineering - volunteer instructor, French Alpine Club
