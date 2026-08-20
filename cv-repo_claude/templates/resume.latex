@@ -18,7 +18,6 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{parskip}
-\setlength{\parskip}{1pt}
 \usepackage{tikz}
 
 \definecolor{accent}{HTML}{3E5282}
@@ -34,18 +33,32 @@
 \setlength{\parindent}{0pt}
 \color{bodytext}
 
+% =========================================================================
+% AERATION -- tune these lengths to fill the page (all in one place)
+% =========================================================================
+\newlength{\cvParSkip}        \setlength{\cvParSkip}{2pt}      % space between paragraphs (whole doc)
+\newlength{\cvHeaderBefore}   \setlength{\cvHeaderBefore}{0.35em} % space before a "+ TITLE" header
+\newlength{\cvHeaderAfter}    \setlength{\cvHeaderAfter}{0.25em} % space after the header's rule
+\newlength{\cvEntrySpace}     \setlength{\cvEntrySpace}{0.35em}   % space between two experience entries
+\newlength{\cvItemSep}        \setlength{\cvItemSep}{1pt}        % space between bullet points
+\newlength{\cvTopSep}         \setlength{\cvTopSep}{2pt}         % space before the first bullet of a list
+\newlength{\cvColumnTopPad}   \setlength{\cvColumnTopPad}{0.7em} % space above "Training" / "Profile"
+% =========================================================================
+
+\setlength{\parskip}{\cvParSkip}
+
 % ---------- "+ Section Title" header, used in sidebar and main column ----------
 \newcommand{\cvheader}[1]{%
-  \par\vspace{0.2em}%
+  \par\vspace{\cvHeaderBefore}%
   \noindent{\color{white}\colorbox{accent}{\makebox[1.1em][c]{\footnotesize\bfseries +}}}%
   \hspace{0.4em}{\color{accent}\bfseries\MakeUppercase{#1}}\par
-  \vspace{0.1em}{\color{rulegray}\hrule height 0.6pt}\vspace{0.15em}%
+  \vspace{0.1em}{\color{rulegray}\hrule height 0.6pt}\vspace{\cvHeaderAfter}%
 }
 
 \titleformat{\subsection}{\relax}{}{0pt}{\relax}[]
 \let\subsection\cvheader
 
-\setlist[itemize]{leftmargin=1.05em, itemsep=0pt, topsep=1pt, parsep=0pt}
+\setlist[itemize]{leftmargin=1.05em, itemsep=\cvItemSep, topsep=\cvTopSep, parsep=0pt}
 
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 
@@ -57,7 +70,7 @@
   \begin{minipage}[t]{0.08\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\end{minipage}%
   \hfill\begin{minipage}[t]{0.9\linewidth}\small
 }{%
-  \end{minipage}\par\vspace{0.2em}%
+  \end{minipage}\par\vspace{\cvEntrySpace}%
 }
 
 $if(header-includes)$
@@ -99,7 +112,7 @@ $endif$
 \begin{leftcolumn}
 \colorbox{sidebarbg}{%
 \begin{minipage}[t]{\linewidth}
-\vspace{0.6em}%
+\vspace{\cvColumnTopPad}%
 \hspace{0.7em}%
 \begin{minipage}{\dimexpr\linewidth-1.4em}
 
@@ -141,7 +154,7 @@ $endif$
 % ================= MAIN CONTENT =================
 \begin{rightcolumn}
 {\leftskip=1.1em\rightskip=1.1em
-\vspace{0.6em}%
+\vspace{\cvColumnTopPad}%
 $body$
 \par}
 \end{rightcolumn}
