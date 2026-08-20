@@ -18,7 +18,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{parskip}
-\setlength{\parskip}{2pt}
+\setlength{\parskip}{1pt}
 \usepackage{tikz}
 
 \definecolor{accent}{HTML}{3E5282}
@@ -36,16 +36,16 @@
 
 % ---------- "+ Section Title" header, used in sidebar and main column ----------
 \newcommand{\cvheader}[1]{%
-  \par\vspace{0.5em}%
+  \par\vspace{0.2em}%
   \noindent{\color{white}\colorbox{accent}{\makebox[1.1em][c]{\footnotesize\bfseries +}}}%
   \hspace{0.4em}{\color{accent}\bfseries\MakeUppercase{#1}}\par
-  \vspace{0.15em}{\color{rulegray}\hrule height 0.6pt}\vspace{0.45em}%
+  \vspace{0.1em}{\color{rulegray}\hrule height 0.6pt}\vspace{0.15em}%
 }
 
 \titleformat{\subsection}{\relax}{}{0pt}{\relax}[]
 \let\subsection\cvheader
 
-\setlist[itemize]{leftmargin=1.05em, itemsep=1pt, topsep=2pt, parsep=0pt}
+\setlist[itemize]{leftmargin=1.05em, itemsep=0pt, topsep=1pt, parsep=0pt}
 
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 
@@ -57,7 +57,7 @@
   \begin{minipage}[t]{0.08\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\end{minipage}%
   \hfill\begin{minipage}[t]{0.9\linewidth}\small
 }{%
-  \end{minipage}\par\vspace{0.4em}%
+  \end{minipage}\par\vspace{0.2em}%
 }
 
 $if(header-includes)$
@@ -91,8 +91,7 @@ $endif$
   \end{minipage}\hspace{0.4cm}
 \end{minipage}%
 }
-\par\vspace{0.5em}
-
+\par
 \columnratio{0.25}
 \begin{paracol}{2}
 
@@ -100,7 +99,8 @@ $endif$
 \begin{leftcolumn}
 \colorbox{sidebarbg}{%
 \begin{minipage}[t]{\linewidth}
-\vspace{0.6em}\hspace{0.7em}%
+\vspace{0.6em}%
+\hspace{0.7em}%
 \begin{minipage}{\dimexpr\linewidth-1.4em}
 
 $if(sidebar-training)$
@@ -140,10 +140,10 @@ $endif$
 \switchcolumn[1]
 % ================= MAIN CONTENT =================
 \begin{rightcolumn}
-\hspace{1.1em}%
-\begin{minipage}{\dimexpr\linewidth-2.2em}
+{\leftskip=1.1em\rightskip=1.1em
+\vspace{0.6em}%
 $body$
-\end{minipage}
+\par}
 \end{rightcolumn}
 
 \end{paracol}
