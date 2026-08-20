@@ -10,7 +10,7 @@
   BoldItalicFont = *-bolditalic
 ]
 
-\usepackage[margin=0pt]{geometry}
+\usepackage[margin=0.5cm]{geometry}
 \usepackage{paracol}
 \usepackage{xcolor}
 \usepackage{titlesec}
@@ -18,6 +18,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{parskip}
+\setlength{\parskip}{2pt}
 \usepackage{tikz}
 
 \definecolor{accent}{HTML}{3E5282}
@@ -53,10 +54,10 @@
 % ---------- experience entry: narrow date column + content column ----------
 \newenvironment{cventry}[1]{%
   \par\noindent
-  \begin{minipage}[t]{0.135\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\end{minipage}%
-  \hfill\begin{minipage}[t]{0.845\linewidth}\small
+  \begin{minipage}[t]{0.08\linewidth}\raggedleft\color{accent}\bfseries\footnotesize #1\end{minipage}%
+  \hfill\begin{minipage}[t]{0.9\linewidth}\small
 }{%
-  \end{minipage}\par\vspace{0.5em}%
+  \end{minipage}\par\vspace{0.4em}%
 }
 
 $if(header-includes)$
@@ -69,17 +70,18 @@ $endif$
 
 % ================= TOP BANNER =================
 \noindent
-\begin{minipage}[c][2.6cm][c]{0.25\linewidth}
-  \hspace{0.9cm}%
-  \begin{minipage}{\dimexpr\linewidth-0.9cm}
+\begin{minipage}[c][2.6cm][c]{0.26\linewidth}
+  \hspace{0.7em}%
+  \begin{minipage}{\dimexpr\linewidth-0.7em-0.5em}
   {\color{accent}\huge\bfseries $title$}\par\vspace{0.1em}
   {\large\color{bodytext} $subtitle$}\par
   {\color{graytext} $tagline$}\par
   \end{minipage}
 \end{minipage}%
 \colorbox{banner}{%
-\begin{minipage}[c][2.6cm][c]{0.75\linewidth}
+\begin{minipage}[c][2.6cm][c]{0.74\linewidth}
   \begin{minipage}{0.62\linewidth}
+  \hypersetup{urlcolor=white}
   \color{white}\small
   $if(sidebar-contact)$$sidebar-contact$$endif$
   \end{minipage}\hfill
@@ -98,7 +100,7 @@ $endif$
 \begin{leftcolumn}
 \colorbox{sidebarbg}{%
 \begin{minipage}[t]{\linewidth}
-\vspace{0.6em}\hspace{0.75em}%
+\vspace{0.6em}\hspace{0.7em}%
 \begin{minipage}{\dimexpr\linewidth-1.4em}
 
 $if(sidebar-training)$

@@ -1,6 +1,8 @@
 ---
 title: Cyril Braguy
-subtitle: Engineer & Data Scientist
+subtitle: |
+  Engineer expert\
+  AI-augmented 
 tagline: Data Science & NVH
 photo: images/photo.png
 lang: en
@@ -12,29 +14,31 @@ lang: en
  · [LinkedIn](https://www.linkedin.com/in/cyril-braguy-a498201/)\
  · [GitHub](http://github.com/cyrilbraguy)
 
-## Profile
+## Profile |
 
-Engineer with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volvo Group), retrained as a **Data Scientist** (Jedha Bootcamp, 600h, 2026). Builds end-to-end ML pipelines (deep learning, MLOps) and Python data tools, applying them to real industrial signal and reliability data.
+Engineer retrained as a **Lead Data Scientist** (Jedha Bootcamp, 600h, 2026)\
+with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volvo Group)\
+Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI architecture, applying them to real industrial signal and reliability data.
 
 ## Data Science & Machine Learning
 
-**Skills:** Python, pandas, NumPy, SQL, scikit-learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, librosa, MLOps, LangChain, Docker, Kubernetes, Git, QlikView, Power BI
+**Skills:** Python, pandas, NumPy, SQL, PySpark, scikit-learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, librosa, MLOps, LangChain, Docker, Kubernetes, Git, Github actions, Airflow, EvidentlyAI, Terraform, QlikView, Power BI
 
-### Lead Data Scientist AI Bootcamp (600h) | Jedha — 2026
+### Lead Data Scientist AI Bootcamp (600h) - Jedha — 2026
 
-- Full-stack : Python, EDA, ML, Deep Learning, MLOps, Docker, Kubernetes, model deployment
-- Lead : Data governance, 
+- **Full-stack**: Python, EDA, Machine and Deep Learning, MLOps, Docker, Kubernetes ; **Lead**:Data Governance, model and complete AI solution deployment 
 
-### Project MusicAI — music genre classification | Personal capstone — 2026
+
+### Project MusicAI: music genre classification - Personal capstone — 2026
 
 - Multimodal CNN (PyTorch): mel-spectrograms + 57 audio features (librosa) on GTZAN
 - MLflow tracking/registry pipeline; Streamlit app for live inference, PCA & recommendations
 
-### PyWindNoise — wind-noise analysis tool | Renault Trucks, Volvo Group — 2025
+### PyWindNoise: wind-noise analysis tool - Renault Trucks, Volvo Group — 2025
 
 - Python/Tkinter app automating Simcenter Testlab via COM (win32com), packaged with PyInstaller
 
-### LogDataValidator — vehicle log data validation | Renault Trucks, Volvo Group — 2022
+### LogDataValidator: vehicle log data validation | Renault Trucks, Volvo Group — 2022
 
 - Technical lead, automated validation tool (200 man-days, €100k budget)
 
@@ -42,19 +46,12 @@ Engineer with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volv
 
 - Clustering, QlikView/Power BI dashboards on driving & warranty data; Weibull reliability models
 
-## Engineering Background
 
-### NVH & Aero-acoustics Analyst | Renault Trucks, Volvo Group — Present
+## NVH : Noise Vibration Harshness 
+
+### NVH & Aero-acoustics Analyst | Renault Trucks, Volvo Group — Now
 
 - Aerodynamic noise test method & analysis workflow (Simcenter Testlab); rear axle noise measuring system in production
-
-### Reliability Project Team Member | Renault Trucks, Volvo Group — 2024
-
-- Warranty data analysis & Power BI reports; **LogDataValidator** tool
-
-### Performance & fuel consumption analyst — 2017
-
-- Customer usage clustering & QlikView dashboards; new aerodynamic CO2-certification test methods (Matlab)
 
 ### Team Leader Cabin Interior Noise & feature leader | Renault Trucks, Volvo Group, Lyon — 2014
 
@@ -74,7 +71,19 @@ Engineer with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volv
 
 ### Structural Dynamics Engineer (Military Service) | Aerospatiale (now Airbus Astrium) — 1996
 
-- Structural vibration & shock response calculations, **FORTRAN programming**, FEM
+- Structural vibration & shock response calculations, **FORTRAN programming**
+
+## Other Engineering Background
+
+### Reliability Project Team Member | Renault Trucks, Volvo Group — 2024
+
+- Warranty data analysis & Power BI reports; **LogDataValidator** tool
+
+### Performance & fuel consumption analyst — 2017
+
+- Customer usage clustering & QlikView dashboards; new aerodynamic CO2-certification test methods (Matlab)
+
+
 
 ## Training
 
@@ -105,8 +114,8 @@ Engineer with 25+ years in NVH, acoustics and reliability (Renault Trucks / Volv
 - Developing & implementing new research-based methodologies
 - **NVH:** acoustics, vibrations, instrumentation, Simcenter Testlab
 - **Reliability:** Weibull models, project management, Reliasoft
-- **Data analytics:** Python, pandas, scikit-learn, PyTorch, MLflow, QlikView, Power BI
-- Professional technical English (TOEIC 850)
+- **Languages:** English Professional technical (TOEIC 850)
+  German : school level
 
 ## Hobbies
 
