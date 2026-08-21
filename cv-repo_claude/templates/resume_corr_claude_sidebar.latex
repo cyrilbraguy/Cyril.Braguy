@@ -38,8 +38,8 @@
 % AERATION -- sidebar (left column, tuned independently)
 \newlength{\cvHeaderBeforeLeft} \setlength{\cvHeaderBeforeLeft}{0.5em}
 \newlength{\cvHeaderRuleLeft}   \setlength{\cvHeaderRuleLeft}{4pt}
-\newlength{\cvHeaderAfterLeft}  \setlength{\cvHeaderAfterLeft}{0.3em}
-\newlength{\cvItemSepLeft}      \setlength{\cvItemSepLeft}{2pt}
+\newlength{\cvHeaderAfterLeft}  \setlength{\cvHeaderAfterLeft}{0.5em}
+\newlength{\cvItemSepLeft}      \setlength{\cvItemSepLeft}{3pt}
 \newlength{\cvTopSepLeft}       \setlength{\cvTopSepLeft}{3pt}
 % =========================================================================
 \newlength{\cvParSkip}        \setlength{\cvParSkip}{0pt}        % space between paragraphs (whole doc)

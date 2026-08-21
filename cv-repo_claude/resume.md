@@ -89,15 +89,23 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 *2018 - 2026*
 
-- **2026: Jedha Bootcamp** – Lead Data Scientist, 600h
+- **2026: Jedha Bootcamp** - Lead Data Scientist, 600h
 - **Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/)**: music genre classification
+- **Certification** awaiting: 
+  - Machine Learning Engineer  
+  RNCP35288 - Level 6
+  - AI Architect  
+  RNCP38777 - Level 7
 
 ## Education
 
 *1993 - 1996*
 
-- **Ecole Centrale de Lyon** - Engineer in Structural Dynamics; MSc Acoustics
-- Master's thesis: SEA method tool for plate structures, Dassault Aviation, Suresnes (1996)
+- **Ecole Centrale de Lyon**   
+  - Engineer in Structural Dynamics
+  - MSc Acoustics
+  - Master's thesis: SEA method tool  
+  complete fortran architecture, Dassault Aviation, Suresnes (1996)
 
 ## Qualities
 
