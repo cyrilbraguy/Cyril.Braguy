@@ -22,7 +22,7 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 ## Data Science & Machine Learning
 
-**Skills:** Mathematical statistics, Python, SQL, pandas, NumPy, PySpark, Scikit-Learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, MLOps, LangChain, LLMOps, Docker, Kubernetes, Git, Github Actions, Airflow, Evidently, Terraform, AWS, Google Cloud, QlikView, Power BI
+**Skills:** Mathematical statistics, Python, SQL, Pandas, NumPy, PySpark, Scikit-Learn, PyTorch (CNN, deep learning), MLflow, FastAPI, Streamlit, MLOps, LangChain, LLMOps, Docker, Kubernetes, Git, Github Actions, Pytest, Airflow, Evidently, Terraform, AWS, Google Cloud, QlikView, Power BI
 
 ### Lead Data Scientist AI Bootcamp (600h) | Jedha — 2026
 
