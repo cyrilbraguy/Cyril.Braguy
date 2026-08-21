@@ -103,3 +103,16 @@ raccourcir les puces les plus longues dans `resume.md`.
 - `.github/workflows/build.yml` pour générer le PDF à chaque push et le
   publier en artifact/release.
 - `resume.fr.md` pour une version française (mêmes templates).
+
+- remplace le cv principal par la version generee
+- fais un markdown avec l'entete , la photo, les 2 colonnes un peu comme le pdf... et des boutons : get pdf, get .html
+
+corrections du 21/08 : 
+regarde dans le .pdf : reduis l'espace vertical entre les totres et les filigranes, mets 2 ou 3 pts, et dis moi ou se trouve le parametre
+
+ensuite ajuste les espacements de la partie experiences pour que tout tienne sur une seule page, je vais te donner mon dernier pdf et .latex 
+
+et modifie le .md pour enlever tous les — qui sont des caracteres trahissant l'aide de llm pour faire le document, mets un ; ou un - ou un autre caractere ; 
+
+remplace les — avant les noms d'entreprise dans le pdf par des -
+

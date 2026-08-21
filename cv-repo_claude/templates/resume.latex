@@ -36,13 +36,14 @@
 % =========================================================================
 % AERATION -- tune these lengths to fill the page (all in one place)
 % =========================================================================
-\newlength{\cvParSkip}        \setlength{\cvParSkip}{2pt}      % space between paragraphs (whole doc)
-\newlength{\cvHeaderBefore}   \setlength{\cvHeaderBefore}{0.35em} % space before a "+ TITLE" header
-\newlength{\cvHeaderAfter}    \setlength{\cvHeaderAfter}{0.25em} % space after the header's rule
-\newlength{\cvEntrySpace}     \setlength{\cvEntrySpace}{0.35em}   % space between two experience entries
+\newlength{\cvParSkip}        \setlength{\cvParSkip}{1pt}      % space between paragraphs (whole doc)
+\newlength{\cvHeaderBefore}   \setlength{\cvHeaderBefore}{0.25em} % space before a "+ TITLE" header
+\newlength{\cvHeaderRule}     \setlength{\cvHeaderRule}{2pt}      % space under title on filigran
+\newlength{\cvHeaderAfter}    \setlength{\cvHeaderAfter}{0.15em}  % space after the header's rule
+\newlength{\cvEntrySpace}     \setlength{\cvEntrySpace}{0.25em}   % space between two experience entries
 \newlength{\cvItemSep}        \setlength{\cvItemSep}{1pt}        % space between bullet points
-\newlength{\cvTopSep}         \setlength{\cvTopSep}{2pt}         % space before the first bullet of a list
-\newlength{\cvColumnTopPad}   \setlength{\cvColumnTopPad}{0.7em} % space above "Training" / "Profile"
+\newlength{\cvTopSep}         \setlength{\cvTopSep}{1pt}         % space before the first bullet of a list
+\newlength{\cvColumnTopPad}   \setlength{\cvColumnTopPad}{0.5em} % space above "Training" / "Profile"
 % =========================================================================
 
 \setlength{\parskip}{\cvParSkip}
@@ -52,8 +53,9 @@
   \par\vspace{\cvHeaderBefore}%
   \noindent\raisebox{1.52pt}{\colorbox{accent}{\makebox[1.1em][c]{\color{white}\footnotesize\bfseries +}}}%
   \hspace{0.4em}{\color{accent}\bfseries\MakeUppercase{#1}}\par
+  \vspace{-\baselineskip}\vspace{\cvHeaderRule}%
   \noindent{\color{rulegray}\rule[0pt]{\linewidth}{0.6pt}}\par
-\vspace{\cvHeaderAfter}%
+  \vspace{\cvHeaderAfter}%
 }
 
 \titleformat{\subsection}{\relax}{}{0pt}{\relax}[]

@@ -26,13 +26,14 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 ### Lead Data Scientist AI Bootcamp (600h) | Jedha — 2026
 
-- **Full-stack**: Python, EDA, Machine and Deep Learning, MLOps, Docker, Kubernetes ; **Lead**:Data Governance, model and complete AI solution deployment 
+- **Full-stack**: Python, SQL, EDA, Machine and Deep Learning, MLOps, Docker 
+- **Lead**: Data Governance, Kubernetes, solution architecture, MLOps CI/CD, orchestration, LLMOps 
 
 
 ### Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/): music genre classification | Personal capstone — 2026
 
-- Multimodal CNN (PyTorch): mel-spectrograms + 57 audio features (librosa) on GTZAN
-- MLflow tracking/registry pipeline; Streamlit app for live inference, PCA & recommendations
+- CNN on mel-spectrograms + ML on audio features (librosa) on GTZAN
+- Streamlit frontend & API w/ mlflow server for live inference, PCA & recommendations
 - MLOps : CI / CD, drift monitoring, orchestration w/ Airflow & github actions  
 
 ### PyWindNoise: wind-noise analysis tool | Renault Trucks (Volvo AB) — 2025
@@ -50,7 +51,7 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 ## NVH : Noise Vibration Harshness 
 
-### NVH & Aero-acoustics Analyst | Renault Trucks (Volvo AB) — Now
+### NVH & Aero-acoustics Analyst | Renault Trucks (Volvo AB) — Now -2024
 
 - Aerodynamic noise test method & analysis workflow (Simcenter Testlab); rear axle noise measuring system in production
 
@@ -86,14 +87,14 @@ Builds end-to-end ML pipelines (deep learning, MLOps), Python data tools and AI 
 
 ## Training
 
-*2018 – 2026*
+*2018 - 2026*
 
 - **2026: Jedha Bootcamp** – Lead Data Scientist, 600h
 - **Project [MusicAI](https://www.linkedin.com/feed/update/urn:li:activity:7474007779171766272/)**: music genre classification
 
 ## Education
 
-*1993 – 1996*
+*1993 - 1996*
 
 - **Ecole Centrale de Lyon** - Engineer in Structural Dynamics; MSc Acoustics
 - Master's thesis: SEA method tool for plate structures, Dassault Aviation, Suresnes (1996)

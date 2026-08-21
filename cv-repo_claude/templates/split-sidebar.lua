@@ -113,7 +113,7 @@ function Pandoc(doc)
       local inlines = { pandoc.Strong({ pandoc.Str(title) }) }
       if company then
         table.insert(inlines, pandoc.Space())
-        table.insert(inlines, pandoc.Emph({ pandoc.Str("— " .. company) }))
+        table.insert(inlines, pandoc.Emph({ pandoc.Str("- " .. company) }))
       end
       local titlepara = pandoc.Para(inlines)
       if (fmt == "latex" or fmt == "html") and date then
