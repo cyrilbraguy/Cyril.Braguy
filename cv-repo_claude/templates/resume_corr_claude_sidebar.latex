@@ -35,41 +35,39 @@
 
 % =========================================================================
 % AERATION -- tune these lengths to fill the page (all in one place)
-% =========================================================================
-\newlength{\cvParSkip}        \setlength{\cvParSkip}{1pt}      % space between paragraphs (whole doc)
-\newlength{\cvHeaderBefore}   \setlength{\cvHeaderBefore}{0.25em} % space before a "+ TITLE" header
-\newlength{\cvHeaderRule}     \setlength{\cvHeaderRule}{2pt}      % space under title on filigran
-\newlength{\cvHeaderAfter}    \setlength{\cvHeaderAfter}{0.15em}  % space after the header's rule
-\newlength{\cvEntrySpace}     \setlength{\cvEntrySpace}{0.25em}   % space between two experience entries
-\newlength{\cvItemSep}        \setlength{\cvItemSep}{1pt}        % space between bullet points
-\newlength{\cvTopSep}         \setlength{\cvTopSep}{1pt}         % space before the first bullet of a list
-\newlength{\cvColumnTopPad}   \setlength{\cvColumnTopPad}{0.5em} % space above "Training" / "Profile"
-
 % AERATION -- sidebar (left column, tuned independently)
-\newlength{\cvHeaderBeforeLeft} \setlength{\cvHeaderBeforeLeft}{0.4em}
+\newlength{\cvHeaderBeforeLeft} \setlength{\cvHeaderBeforeLeft}{0.5em}
 \newlength{\cvHeaderRuleLeft}   \setlength{\cvHeaderRuleLeft}{4pt}
-\newlength{\cvHeaderAfterLeft}  \setlength{\cvHeaderAfterLeft}{0.2em}
+\newlength{\cvHeaderAfterLeft}  \setlength{\cvHeaderAfterLeft}{0.3em}
 \newlength{\cvItemSepLeft}      \setlength{\cvItemSepLeft}{2pt}
 \newlength{\cvTopSepLeft}       \setlength{\cvTopSepLeft}{3pt}
-
+% =========================================================================
+\newlength{\cvParSkip}        \setlength{\cvParSkip}{0pt}        % space between paragraphs (whole doc)
+\newlength{\cvHeaderBefore}   \setlength{\cvHeaderBefore}{0.05em}  % space before a "+ TITLE" header
+\newlength{\cvHeaderRule}     \setlength{\cvHeaderRule}{4pt}       % space between title and rule ← AJUSTER ICI
+\newlength{\cvHeaderAfter}    \setlength{\cvHeaderAfter}{0pt}   % space after the header's rule
+\newlength{\cvEntrySpace}     \setlength{\cvEntrySpace}{0pt}      % space between two experience entries
+\newlength{\cvItemSep}        \setlength{\cvItemSep}{0pt}         % space between bullet points
+\newlength{\cvTopSep}         \setlength{\cvTopSep}{1pt}          % space before the first bullet of a list
+\newlength{\cvColumnTopPad}   \setlength{\cvColumnTopPad}{0.5em}  % space above "Training" / "Profile"
 % =========================================================================
 
 \setlength{\parskip}{\cvParSkip}
 
-% Switch spacing to sidebar values (call at start of left column)
+% Switch to sidebar spacing values
 \newcommand{\sidebarspacing}{%
   \setlength{\cvHeaderBefore}{\cvHeaderBeforeLeft}%
   \setlength{\cvHeaderRule}{\cvHeaderRuleLeft}%
   \setlength{\cvHeaderAfter}{\cvHeaderAfterLeft}%
   \setlength{\cvItemSep}{\cvItemSepLeft}%
   \setlength{\cvTopSep}{\cvTopSepLeft}%
-  \setlength{\itemsep}{\cvItemSepLeft}%
 }
 
 % ---------- "+ Section Title" header, used in sidebar and main column ----------
 \newcommand{\cvheader}[1]{%
   \par\vspace{\cvHeaderBefore}%
-  \noindent\raisebox{1.52pt}{\colorbox{accent}{\makebox[1.1em][c]{\color{white}\footnotesize\bfseries +}}}%
+  \noindent
+  \raisebox{1.52pt}{\colorbox{accent}{\makebox[1.1em][c]{\color{white}\footnotesize\bfseries +}}}%
   \hspace{0.4em}{\color{accent}\bfseries\MakeUppercase{#1}}\par
   \vspace{-\baselineskip}\vspace{\cvHeaderRule}%
   \noindent{\color{rulegray}\rule[0pt]{\dimexpr\linewidth-\rightskip}{0.6pt}}\par
@@ -88,7 +86,7 @@
 % ---------- experience entry: narrow date column + content column ----------
 \newenvironment{cventry}[1]{%
   \par\noindent
-  \raisebox{8.0pt}{\begin{minipage}[t]{0.07\linewidth}\raggedleft\color{accent}\bfseries\small #1\end{minipage}}%
+  \raisebox{8.4pt}{\begin{minipage}[t]{0.07\linewidth}\raggedleft\color{accent}\bfseries\small #1\end{minipage}}%
   \hspace{0.5em}\begin{minipage}[t]{0.88\linewidth}\small
 }{%
   \end{minipage}\par\vspace{\cvEntrySpace}%
@@ -121,7 +119,7 @@ $endif$
   \end{minipage}\hfill
   \begin{minipage}{0.3\linewidth}
   \centering
-  $if(photo)$\includegraphics[width=3cm]{$photo$}$endif$
+  $if(photo)$\includegraphics[width=2.1cm]{$photo$}$endif$
   \end{minipage}\hspace{0.4cm}
 \end{minipage}%
 }
@@ -134,23 +132,20 @@ $endif$
 \colorbox{sidebarbg}{%
 \begin{minipage}[t][\dimexpr\textheight-2.6cm-1cm][t]{\linewidth}
 {\leftskip=0.7em\rightskip=0.7em
-\sidebarspacing%          ← ajouter cette ligne
+\sidebarspacing%
 \vspace{\cvColumnTopPad}%
-
-
 
 $if(sidebar-training)$
 \cvheader{Training}
 {\small $sidebar-training$}
 $endif$
-\vspace{\stretch{2}}    % ← étirement double ici
+\vspace{\stretch{1}}
 
 $if(sidebar-education)$
 \cvheader{Education}
 {\small $sidebar-education$}
 $endif$
-\vspace{\stretch{2}}    % ← étirement double ici
-
+\vspace{\stretch{1}}
 
 $if(sidebar-qualities)$
 \cvheader{Qualities}
@@ -159,14 +154,13 @@ $if(sidebar-qualities)$
 {\small $sidebar-qualities$}
 \endgroup
 $endif$
-\vspace{\stretch{2}}    % ← étirement double ici
-
+\vspace{\stretch{1}}
 
 $if(sidebar-strongpoints)$
 \cvheader{Strong Points}
 {\small $sidebar-strongpoints$}
 $endif$
-\vspace{\stretch{2}}    % ← étirement double ici
+\vspace{\stretch{1}}
 
 $if(sidebar-hobbies)$
 \cvheader{Hobbies}
@@ -174,7 +168,6 @@ $if(sidebar-hobbies)$
 $endif$
 \par}
 \vfill
-
 \end{minipage}%
 }
 \end{leftcolumn}
